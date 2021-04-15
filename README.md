@@ -33,4 +33,19 @@ Per mostrare il valore nella pagina html, le funzioni procederanno in questo mod
 document.getElementById("result").style = "Color: red";
 document.getElementById("wikitime").innerHTML = "<a href='https://it.wikipedia.org/wiki/" + i + "_(numero)' target = '_blank'> Tutto sul numero " + i + "</a>"`
 
+All'apertura della pagina, verrà mostrato di default il numero 0 grazie a una funzione iniziale:
+`document.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById("result").innerText = i;`
+  
+Il colore del valore iniziale sarà blu, perciò neutro. Se il valore verrà incrementato assumerà il colore verde, in caso contrario rosso:
+`document.getElementById("result").style = "Color: green";`
+`document.getElementById("result").style = "Color: red";`
+
+##Scopo del progetto:
+* Didattico
+
+
+
+
+
 
