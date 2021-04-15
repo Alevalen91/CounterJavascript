@@ -1,0 +1,69 @@
+body{
+
+background-color:  #e9e9fb;
+
+  font-family:Helvetica, sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+ h1{
+   text-align: center;
+
+     font-family: "Copperplate", Papyrus, fantasy;
+ }
+h2{
+  text-align: center;
+  font-size: 100%;
+}
+
+.result {
+
+   font-family: "Copperplate", Papyrus, fantasy;
+
+   text-align: center;
+
+
+}
+
+.button {
+
+  background-color:  #bebef3;
+
+
+padding = 30px;
+
+}
+
+.row {
+  margin: 50px;
+}
+.container{
+margin-top: 50px;
+border: 1px solid;
+border-color: #bebef3;
+background-color: #d4d4f7;
+padding: 10px;
+
+
+}
+a{
+  color:  #6868e3;
+}
+a:hover{
+
+  color: #3d3ddb;
+  opacity: 0.3;
+
+}
+.wikitime{
+
+
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+body{
+  width: 40%;
+}
+}
