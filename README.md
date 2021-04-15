@@ -13,7 +13,7 @@
 * Atom
 
 
-##Funzionamento
+## Funzionamento
 Il contatore incrementerà o decrementerà il valore in base al bottone premuto dall'utente. Per ogni valore ottenuto, verrà generato un link alla pagina wikipedia che illustra tutto ciò che c'è da sapere sul valore. 
 
 Il contatore ha un valore minimo pari a 0 e un valore massimo pari a 1000. 
