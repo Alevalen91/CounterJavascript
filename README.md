@@ -41,7 +41,7 @@ Il colore del valore iniziale sarà blu, perciò neutro. Se il valore verrà inc
 `document.getElementById("result").style = "Color: green";`
 `document.getElementById("result").style = "Color: red";`
 
-##Scopo del progetto:
+## Scopo del progetto:
 * Didattico
 
 
